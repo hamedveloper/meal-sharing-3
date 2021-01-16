@@ -1,17 +1,17 @@
 import React, { useState, useEffect } from "react";
 import "./HomePage.css";
-import logo from "./../assets/images/mealsharing.png";
+//import logo from "./../assets/images/mealsharing.png";
 import { SearchBarFeature } from "./SearchBarFeature";
 
 export function NavigateBar() {
   return (
     <nav>
-      <img
-        src={logo}
+      {/* <img
+        src="./../assets/images/mealsharing.png"
         alt="Meal Sharing"
         width="20%"
         style={{ borderRadius: "30px" }}
-      />
+      /> */}
       <SearchBarFeature />
       <ul>
         <li>

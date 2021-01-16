@@ -5,9 +5,10 @@ ul {
 }
 
 html {
-  background-image: url("./../assets/images/background2.png");
+  /* background-image: url("./../assets/images/background2.png"); */
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #5f4a22;
 }
 .add-meal {
   color: rgb(255, 255, 255);
